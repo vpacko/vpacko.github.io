@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>HTML5</title>
+<link href="https://fonts.googleapis.com/css?family=Rubik+Mono+One" rel="stylesheet">
+<style>
+	body {
+		background: url(images/background_js.jpg);
+		background-attachment: fixed;
+		background-position: center top;
+	}
+	* {
+		padding: 0;
+		margin: 0;
+		box-sizing: border-box;
+	}
+	.nav_pos {
+		position: fixed;
+		top: 1px;
+		left: 1px;
+	}
+	.doc_pos {
+		position: fixed;
+		top: 91px;
+		left: 1px;
+	}
+	.button a{	
+		font-family: "Rubik Mono One", sans-serif;
+		font-size: 24px;
+		text-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+		display: block;
+		text-align: center;
+		margin: -1px;
+		border: 1px solid black;
+		width: 220px;
+		cursor: pointer;
+		color: #303030;
+		text-decoration: none;
+		background: linear-gradient(22.5deg, #636363, #9b9b9b, #d6d6d6);	
+	}
+	.button a:hover{
+		color: #444444;
+		background: linear-gradient(22.5deg, #7c7c7c, #b5b5b5, #f9f9f9);
+	}
+	.button a:active{
+		color: #000000;
+		background: linear-gradient(22.5deg, #383838, #6d6d6d, #a5a5a5);
+	}
+	
+	.doc_button a{	
+		font-family: "Rubik Mono One", sans-serif;
+		font-size: 16px;
+		text-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+		display: block;
+		text-align: center;
+		margin: -1px;
+		border: 1px solid black;
+		width: 220px;
+		cursor: pointer;
+		color: #3f1d03;
+		text-decoration: none;
+		background: linear-gradient(22.5deg, #f37b20, #F48430, #f7a05f);	
+	}
+	.doc_button a:hover{
+		color: #221002;
+		background: linear-gradient(22.5deg, #cb5e0b, #e4680c, #f58c3d);
+	}
+	.doc_button a:active{
+		color: #492204;
+		background: linear-gradient(22.5deg, #f58f42, #f69a56, #f9b786);
+	}
+
+	#img_js{
+		position: fixed;
+		right: 0px;
+		width: 220px;
+		top: 10px;
+	}
+	
+	.content {
+		padding-left: 8px;
+		padding-right: 8px;
+		max-width: calc(100% - 440px);
+		position: absolute;
+		left: 219px;
+		top: 0px;
+		overflow: auto;
+		z-index: 10;
+	}
+	.content_background {
+		background: rgba(253,234,221, 0.8);
+		z-index: 2;
+		position: fixed;
+		width: calc(100% - 440px);
+		height: 100%;
+		left: 220px;
+		top: 0px;
+	}
+	.line {
+		border: 1px solid black;
+		border-right-style: none;
+		height: 100%;
+		position: fixed;
+		z-index: 3;
+	}
+</style>
+
+</head>
+<body>
+<div class="nav_pos button">
+	<ul>
+		<li><a href="html5.html">HTML5</a></li>
+		<li><a href="css3.html">CSS3</a></li>
+		<li><a href="js.html">JS</a></li>
+	</ul>
+</div>
+<div class="doc_pos doc_button">
+	<ul>
+		<li><a href="#">Reference</a></li>
+		<li><a href="#">Content</a></li>
+		<li><a href="#">Elements</a></li>
+		<li><a href="#">Attributes</a></li>
+		<li><a href="#">Tutorials</a></li>
+	</ul>
+</div>
+<img id="img_js" src="http://www.pasilda.com/ux/img/javascript-logo.png">
+<div class="content_background"></div>
+<div class="content">
+	<h1 style="text-align: center;">JS MAIN HEADER</h1><br>
+	<p>
+	1 The maximum width of this text is the width of the space between the menu bar and the html5 logo in pixels. The height of this test text should continue for as long as needed...
+	2 The maximum width of this text is the width of the space between the menu bar and the html5 logo in pixels. The height of this test text should continue for as long as needed...
+	3 The maximum width of this text is the width of the space between the menu bar and the html5 logo in pixels. The height of this test text should continue for as long as needed...
+	4 The maximum width of this text is the width of the space between the menu bar and the html5 logo in pixels. The height of this test text should continue for as long as needed...
+	5 The maximum width of this text is the width of the space between the menu bar and the html5 logo in pixels. The height of this test text should continue for as long as needed...
+	6 The maximum width of this text is the width of the space between the menu bar and the html5 logo in pixels. The height of this test text should continue for as long as needed...
+	7 The maximum width of this text is the width of the space between the menu bar and the html5 logo in pixels. The height of this test text should continue for as long as needed...
+	8 The maximum width of this text is the width of the space between the menu bar and the html5 logo in pixels. The height of this test text should continue for as long as needed...
+	9 The maximum width of this text is the width of the space between the menu bar and the html5 logo in pixels. The height of this test text should continue for as long as needed...
+	10 The maximum width of this text is the width of the space between the menu bar and the html5 logo in pixels. The height of this test text should continue for as long as needed...
+	11 The maximum width of this text is the width of the space between the menu bar and the html5 logo in pixels. The height of this test text should continue for as long as needed...
+	12 The maximum width of this text is the width of the space between the menu bar and the html5 logo in pixels. The height of this test text should continue for as long as needed...
+	</p><br>
+	<h2 style="text-align: center;">New Header</h2><br>
+	<p>
+	1 The maximum width of this text is the width of the space between the menu bar and the html5 logo in pixels. The height of this test text should continue for as long as needed...
+	2 The maximum width of this text is the width of the space between the menu bar and the html5 logo in pixels. The height of this test text should continue for as long as needed...
+	3 The maximum width of this text is the width of the space between the menu bar and the html5 logo in pixels. The height of this test text should continue for as long as needed...
+	4 The maximum width of this text is the width of the space between the menu bar and the html5 logo in pixels. The height of this test text should continue for as long as needed...
+	5 The maximum width of this text is the width of the space between the menu bar and the html5 logo in pixels. The height of this test text should continue for as long as needed...
+	6 The maximum width of this text is the width of the space between the menu bar and the html5 logo in pixels. The height of this test text should continue for as long as needed...
+	7 The maximum width of this text is the width of the space between the menu bar and the html5 logo in pixels. The height of this test text should continue for as long as needed...
+	8 The maximum width of this text is the width of the space between the menu bar and the html5 logo in pixels. The height of this test text should continue for as long as needed...
+	9 The maximum width of this text is the width of the space between the menu bar and the html5 logo in pixels. The height of this test text should continue for as long as needed...
+	10 The maximum width of this text is the width of the space between the menu bar and the html5 logo in pixels. The height of this test text should continue for as long as needed...
+	11 The maximum width of this text is the width of the space between the menu bar and the html5 logo in pixels. The height of this test text should continue for as long as needed...
+	12 The maximum width of this text is the width of the space between the menu bar and the html5 logo in pixels. The height of this test text should continue for as long as needed...
+	</p>
+</div>
+<div class="line" style="left: 219px;"></div>
+<div class="line" style="right: 219px;"></div>
+</body>
+</html>
